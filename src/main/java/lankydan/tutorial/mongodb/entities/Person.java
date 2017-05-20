@@ -12,8 +12,7 @@ import java.time.LocalDateTime;
 @ToString(exclude = {"id", "dateOfBirth"})
 public class Person {
 
-  // needs an annotation if not called id?
-//  @Id
+  @Id
   private String id;
 
   // not annotated as it is assumed that they will be mapped
